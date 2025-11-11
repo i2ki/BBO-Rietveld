@@ -1,0 +1,6 @@
+repos:
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.6.1
+    hooks:
+      - id: nbstripout
+        # 既定で出力は除去。メタデータは保持。

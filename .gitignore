@@ -76,6 +76,11 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.nbconvert.ipynb
+
+# VSCode/Jupyterの一時ファイル (念のため)
+*.tmp.ipynb
+
 
 # IPython
 profile_default/

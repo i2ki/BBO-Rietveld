@@ -1,0 +1,14 @@
+services:
+  bbo-rietveld:
+    image: resnant/bbo-rietveld:v1.3
+    build:
+      context: ./docker
+    container_name: bbo-rietveld
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/workspace
+    working_dir: /workspace
+    command: jupyter lab --allow-root --ip 0.0.0.0 --no-browser --ServerApp.root_dir=/workspace --ServerApp.disable_check_xsrf=True
+    stdin_open: true
+    tty: true

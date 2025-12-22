@@ -1,0 +1,46 @@
+data_global
+_chemical_name_mineral 'Strontianite'
+loop_
+_publ_author_name
+'de Villiers J P R'
+_journal_name_full 'American Mineralogist'
+_journal_volume 56 
+_journal_year 1971
+_journal_page_first 758
+_journal_page_last 767
+_publ_section_title
+;
+ Crystal structures of aragonite, strontianite, and witherite
+;
+_database_code_amcsd 0000234
+_chemical_formula_sum 'Sr C O3'
+_cell_length_a 5.090
+_cell_length_b 8.358
+_cell_length_c 5.997
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 255.126
+_exptl_crystal_density_diffrn      3.844
+_symmetry_space_group_name_H-M 'P m c n'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2-x,y,z'
+  '1/2+x,-y,-z'
+  '1/2+x,1/2+y,1/2-z'
+  '1/2-x,1/2-y,1/2+z'
+  'x,1/2-y,1/2+z'
+  '-x,1/2+y,1/2-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Sr   0.25000   0.41600   0.75690   0.00643
+C   0.25000   0.76010  -0.08640   0.00750
+O1   0.25000   0.91190  -0.09460   0.01156
+O2   0.46940   0.68210  -0.08390   0.01009
+
